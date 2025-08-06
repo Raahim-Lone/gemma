@@ -1,0 +1,9 @@
+{
+  "mode": "unknown",
+  "num_users": 50,
+  "num_items": 4,
+  "dx": 5,
+  "dz": 4,
+  "n_train": 160,
+  "n_val": 40
+}

@@ -1,0 +1,17 @@
+{
+  "in_dim": 11,
+  "hidden": [
+    64,
+    64
+  ],
+  "alpha": 1.0,
+  "beta": 2000.0,
+  "use_log_targets": false,
+  "epochs": 200,
+  "batch": 128,
+  "lr": 0.001,
+  "wd": 0.0001,
+  "val_frac": 0.2,
+  "seed": 42,
+  "device": "cpu"
+}

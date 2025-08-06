@@ -1,0 +1,147 @@
+[
+  {
+    "rank": 0,
+    "index": 97,
+    "pred_ms": 447.041015625,
+    "plan": [
+      [
+        "thermal_snap",
+        "audio_probe",
+        "wait"
+      ]
+    ],
+    "raw": "thermal_snap + audio_probe + wait"
+  },
+  {
+    "rank": 1,
+    "index": 98,
+    "pred_ms": 1057.00537109375,
+    "plan": [
+      [
+        "gas_sniff",
+        "audio_probe",
+        "wait"
+      ]
+    ],
+    "raw": "gas_sniff + audio_probe + wait"
+  },
+  {
+    "rank": 2,
+    "index": 285,
+    "pred_ms": 1427.0999755859375,
+    "plan": [
+      [
+        "gas_sniff"
+      ],
+      [
+        "thermal_snap"
+      ]
+    ],
+    "raw": "gas_sniff, thermal_snap"
+  },
+  {
+    "rank": 3,
+    "index": 284,
+    "pred_ms": 1475.6329345703125,
+    "plan": [
+      [
+        "gas_sniff"
+      ],
+      [
+        "audio_probe"
+      ]
+    ],
+    "raw": "gas_sniff, audio_probe"
+  },
+  {
+    "rank": 4,
+    "index": 446,
+    "pred_ms": 1573.2435302734375,
+    "plan": [
+      [
+        "wait",
+        "gas_sniff",
+        "gas_sniff"
+      ],
+      [
+        "audio_probe"
+      ]
+    ],
+    "raw": "wait + gas_sniff + gas_sniff, audio_probe"
+  },
+  {
+    "rank": 5,
+    "index": 297,
+    "pred_ms": 1600.93603515625,
+    "plan": [
+      [
+        "wait",
+        "thermal_snap"
+      ],
+      [
+        "audio_probe"
+      ]
+    ],
+    "raw": "wait + thermal_snap, audio_probe"
+  },
+  {
+    "rank": 6,
+    "index": 143,
+    "pred_ms": 1600.93603515625,
+    "plan": [
+      [
+        "thermal_snap",
+        "wait"
+      ],
+      [
+        "audio_probe"
+      ]
+    ],
+    "raw": "thermal_snap + wait, audio_probe"
+  },
+  {
+    "rank": 7,
+    "index": 380,
+    "pred_ms": 1688.442626953125,
+    "plan": [
+      [
+        "audio_probe",
+        "wait"
+      ],
+      [
+        "thermal_snap"
+      ]
+    ],
+    "raw": "audio_probe + wait, thermal_snap"
+  },
+  {
+    "rank": 8,
+    "index": 379,
+    "pred_ms": 1725.769287109375,
+    "plan": [
+      [
+        "thermal_snap",
+        "audio_probe"
+      ],
+      [
+        "wait"
+      ]
+    ],
+    "raw": "thermal_snap + audio_probe, wait"
+  },
+  {
+    "rank": 9,
+    "index": 381,
+    "pred_ms": 1725.769287109375,
+    "plan": [
+      [
+        "wait"
+      ],
+      [
+        "audio_probe",
+        "thermal_snap"
+      ]
+    ],
+    "raw": "wait, audio_probe + thermal_snap"
+  }
+]

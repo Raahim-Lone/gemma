@@ -1,0 +1,188 @@
+{
+    "codebase_version": "v2.1",
+    "robot_type": null,
+    "total_episodes": 40,
+    "total_frames": 658,
+    "total_tasks": 1,
+    "total_videos": 0,
+    "total_chunks": 1,
+    "chunks_size": 1000,
+    "fps": 10,
+    "splits": {
+        "train": "0:40"
+    },
+    "data_path": "data/chunk-{episode_chunk:03d}/episode_{episode_index:06d}.parquet",
+    "video_path": "videos/chunk-{episode_chunk:03d}/{video_key}/episode_{episode_index:06d}.mp4",
+    "features": {
+        "observation": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": [
+                "val"
+            ]
+        },
+        "action": {
+            "dtype": "string",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "reward": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "time_ms": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "energy_mWh": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "hazard_found": {
+            "dtype": "bool",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "safety_incident": {
+            "dtype": "bool",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "room_size": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "room_clutter": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "room_heat": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "room_gas": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "room_noise": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "plan_id": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "plan_node": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "parallel_group": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "is_summary": {
+            "dtype": "bool",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "comp_num_nodes": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "comp_num_parallel": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "comp_depth": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "timestamp": {
+            "dtype": "float32",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "frame_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "episode_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        },
+        "task_index": {
+            "dtype": "int64",
+            "shape": [
+                1
+            ],
+            "names": null
+        }
+    }
+}

@@ -1,0 +1,325 @@
+{
+  "dataset_root": "runtime_ds",
+  "records": [
+    {
+      "room": 0,
+      "selected_indices": [
+        116,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 1,
+      "selected_indices": [
+        67,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 2,
+      "selected_indices": [
+        385,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 3,
+      "selected_indices": [
+        126,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 4,
+      "selected_indices": [
+        141,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 5,
+      "selected_indices": [
+        395,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 6,
+      "selected_indices": [
+        365,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 7,
+      "selected_indices": [
+        25,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 8,
+      "selected_indices": [
+        148,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 9,
+      "selected_indices": [
+        249,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 10,
+      "selected_indices": [
+        340,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 11,
+      "selected_indices": [
+        358,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 12,
+      "selected_indices": [
+        276,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 13,
+      "selected_indices": [
+        105,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 14,
+      "selected_indices": [
+        436,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 15,
+      "selected_indices": [
+        337,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 16,
+      "selected_indices": [
+        367,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 17,
+      "selected_indices": [
+        364,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 18,
+      "selected_indices": [
+        141,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 19,
+      "selected_indices": [
+        438,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 20,
+      "selected_indices": [
+        69,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 21,
+      "selected_indices": [
+        64,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 22,
+      "selected_indices": [
+        298,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 23,
+      "selected_indices": [
+        167,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 24,
+      "selected_indices": [
+        402,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 25,
+      "selected_indices": [
+        199,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 26,
+      "selected_indices": [
+        409,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 27,
+      "selected_indices": [
+        315,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 28,
+      "selected_indices": [
+        17,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 29,
+      "selected_indices": [
+        174,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 30,
+      "selected_indices": [
+        331,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 31,
+      "selected_indices": [
+        284,
+        97,
+        316
+      ]
+    },
+    {
+      "room": 32,
+      "selected_indices": [
+        20,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 33,
+      "selected_indices": [
+        46,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 34,
+      "selected_indices": [
+        124,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 35,
+      "selected_indices": [
+        223,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 36,
+      "selected_indices": [
+        451,
+        286,
+        97
+      ]
+    },
+    {
+      "room": 37,
+      "selected_indices": [
+        113,
+        97,
+        432
+      ]
+    },
+    {
+      "room": 38,
+      "selected_indices": [
+        256,
+        97,
+        286
+      ]
+    },
+    {
+      "room": 39,
+      "selected_indices": [
+        205,
+        286,
+        97
+      ]
+    }
+  ]
+}

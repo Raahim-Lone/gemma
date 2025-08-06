@@ -1,0 +1,9 @@
+{
+  "mode": "composite",
+  "num_users": 50,
+  "num_items": 800,
+  "dx": 5,
+  "dz": 6,
+  "n_train": 640,
+  "n_val": 160
+}

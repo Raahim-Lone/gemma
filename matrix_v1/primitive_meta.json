@@ -1,0 +1,28 @@
+{
+  "primitives": [
+    "lidar_scan",
+    "thermal_snap",
+    "gas_sniff",
+    "audio_probe"
+  ],
+  "nominal_watts": {
+    "lidar_scan": 15.0,
+    "thermal_snap": 5.0,
+    "gas_sniff": 8.0,
+    "audio_probe": 2.0
+  },
+  "safety_critical": {
+    "lidar_scan": 1.0,
+    "thermal_snap": 0.0,
+    "gas_sniff": 0.0,
+    "audio_probe": 0.0
+  },
+  "avg_time_ms": [
+    2003.88,
+    804.02,
+    1003.4,
+    504.18
+  ],
+  "alpha_ms_per_mWh": 1.0,
+  "beta_ms_penalty": 2000.0
+}

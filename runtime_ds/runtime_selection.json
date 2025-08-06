@@ -1,0 +1,2226 @@
+{
+  "rooms": 40,
+  "per_room": 3,
+  "selections": [
+    {
+      "room": 0,
+      "ctx": [
+        37.77787399291992,
+        0.9176872372627258,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 116,
+          "pred_ms": 2588.71630859375,
+          "raw": "lidar_scan, thermal_snap + gas_sniff",
+          "parsed_plan": [
+            [
+              "lidar_scan"
+            ],
+            [
+              "thermal_snap",
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 708.406005859375,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1845.2210693359375,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6124,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 1,
+      "ctx": [
+        36.896636962890625,
+        0.4784888029098511,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 67,
+          "pred_ms": 2190.57958984375,
+          "raw": "wait + gas_sniff + audio_probe, thermal_snap",
+          "parsed_plan": [
+            [
+              "wait",
+              "gas_sniff",
+              "audio_probe"
+            ],
+            [
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2175.47021484375,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 731.0048828125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6370,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 2,
+      "ctx": [
+        13.427190780639648,
+        0.8993656635284424,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 385,
+          "pred_ms": 1507.4227294921875,
+          "raw": "gas_sniff + thermal_snap, audio_probe + wait",
+          "parsed_plan": [
+            [
+              "gas_sniff",
+              "thermal_snap"
+            ],
+            [
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2391.29833984375,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 447.735595703125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6135,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 3,
+      "ctx": [
+        31.199064254760742,
+        0.6189897656440735,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 126,
+          "pred_ms": 2126.953125,
+          "raw": "thermal_snap + audio_probe, gas_sniff",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 718.1796875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2301.89404296875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6138,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 4,
+      "ctx": [
+        35.10679244995117,
+        0.0406416691839695,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 141,
+          "pred_ms": 2234.291015625,
+          "raw": "audio_probe + thermal_snap, gas_sniff",
+          "parsed_plan": [
+            [
+              "audio_probe",
+              "thermal_snap"
+            ],
+            [
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 698.94482421875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2137.38818359375,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6132,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 5,
+      "ctx": [
+        39.392982482910156,
+        0.19979175925254822,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 395,
+          "pred_ms": 2774.502685546875,
+          "raw": "wait + audio_probe, lidar_scan + gas_sniff",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "lidar_scan",
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 825.414306640625,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2158.889892578125,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6973,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 6,
+      "ctx": [
+        19.726078033447266,
+        0.4465954601764679,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 365,
+          "pred_ms": 2843.2890625,
+          "raw": "lidar_scan + gas_sniff, thermal_snap + gas_sniff",
+          "parsed_plan": [
+            [
+              "lidar_scan",
+              "gas_sniff"
+            ],
+            [
+              "thermal_snap",
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 758.197265625,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1736.0185546875,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6227,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 7,
+      "ctx": [
+        19.551191329956055,
+        0.5777044296264648,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 25,
+          "pred_ms": 2369.568115234375,
+          "raw": "gas_sniff + gas_sniff, thermal_snap, wait",
+          "parsed_plan": [
+            [
+              "gas_sniff",
+              "gas_sniff"
+            ],
+            [
+              "thermal_snap"
+            ],
+            [
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 491.142333984375,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2004.5196533203125,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 7024,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 8,
+      "ctx": [
+        36.33152389526367,
+        0.6753673553466797,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 148,
+          "pred_ms": 2040.66357421875,
+          "raw": "thermal_snap + thermal_snap, audio_probe, wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "thermal_snap"
+            ],
+            [
+              "audio_probe"
+            ],
+            [
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2271.4716796875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 683.015869140625,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6449,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 9,
+      "ctx": [
+        39.75094985961914,
+        0.9734055995941162,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 249,
+          "pred_ms": 2754.041748046875,
+          "raw": "lidar_scan + thermal_snap + gas_sniff, audio_probe",
+          "parsed_plan": [
+            [
+              "lidar_scan",
+              "thermal_snap",
+              "gas_sniff"
+            ],
+            [
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 678.689453125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1921.0692138671875,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6027,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 10,
+      "ctx": [
+        33.01826095581055,
+        0.781535804271698,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 340,
+          "pred_ms": 3013.701904296875,
+          "raw": "wait + gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "wait",
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 673.8798828125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1863.73095703125,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5857,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 11,
+      "ctx": [
+        34.12862777709961,
+        0.8487805724143982,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 358,
+          "pred_ms": 2782.592529296875,
+          "raw": "gas_sniff, lidar_scan + thermal_snap",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan",
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 727.143798828125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1950.158935546875,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5820,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 12,
+      "ctx": [
+        15.254929542541504,
+        0.16647841036319733,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 276,
+          "pred_ms": 3016.699951171875,
+          "raw": "thermal_snap, gas_sniff + lidar_scan",
+          "parsed_plan": [
+            [
+              "thermal_snap"
+            ],
+            [
+              "gas_sniff",
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 603.57421875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1835.9405517578125,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5765,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 13,
+      "ctx": [
+        17.73577117919922,
+        0.2451537698507309,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 105,
+          "pred_ms": 2054.88623046875,
+          "raw": "wait + thermal_snap, gas_sniff",
+          "parsed_plan": [
+            [
+              "wait",
+              "thermal_snap"
+            ],
+            [
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 493.468994140625,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 1949.53857421875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6081,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 14,
+      "ctx": [
+        21.62019920349121,
+        0.9227906465530396,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 436,
+          "pred_ms": 1732.4947509765625,
+          "raw": "thermal_snap + wait, audio_probe + gas_sniff",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "wait"
+            ],
+            [
+              "audio_probe",
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2382.699951171875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 487.982421875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6125,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 15,
+      "ctx": [
+        18.641633987426758,
+        0.7370443344116211,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 337,
+          "pred_ms": 2017.4796142578125,
+          "raw": "wait + gas_sniff, thermal_snap + audio_probe",
+          "parsed_plan": [
+            [
+              "wait",
+              "gas_sniff"
+            ],
+            [
+              "thermal_snap",
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2047.9354248046875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 443.440185546875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6131,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 16,
+      "ctx": [
+        34.46015548706055,
+        0.19523678719997406,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 367,
+          "pred_ms": 2606.60205078125,
+          "raw": "gas_sniff, audio_probe, thermal_snap",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "audio_probe"
+            ],
+            [
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 884.773193359375,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 1938.18212890625,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6532,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 17,
+      "ctx": [
+        11.216690063476562,
+        0.6948519945144653,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 364,
+          "pred_ms": 2770.50634765625,
+          "raw": "gas_sniff + thermal_snap, lidar_scan + gas_sniff",
+          "parsed_plan": [
+            [
+              "gas_sniff",
+              "thermal_snap"
+            ],
+            [
+              "lidar_scan",
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 537.98095703125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1569.3076171875,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6229,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 18,
+      "ctx": [
+        27.834270477294922,
+        0.8837889432907104,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 141,
+          "pred_ms": 2033.644775390625,
+          "raw": "audio_probe + thermal_snap, gas_sniff",
+          "parsed_plan": [
+            [
+              "audio_probe",
+              "thermal_snap"
+            ],
+            [
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 567.25,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 1834.571044921875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6129,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 19,
+      "ctx": [
+        26.975126266479492,
+        0.6711685657501221,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 438,
+          "pred_ms": 3014.0224609375,
+          "raw": "gas_sniff + lidar_scan, wait + audio_probe",
+          "parsed_plan": [
+            [
+              "gas_sniff",
+              "lidar_scan"
+            ],
+            [
+              "wait",
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 558.794677734375,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 1965.846923828125,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6969,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 20,
+      "ctx": [
+        29.178293228149414,
+        0.2093464732170105,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 69,
+          "pred_ms": 3258.79052734375,
+          "raw": "gas_sniff + lidar_scan, wait + thermal_snap",
+          "parsed_plan": [
+            [
+              "gas_sniff",
+              "lidar_scan"
+            ],
+            [
+              "wait",
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 731.71826171875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2224.90087890625,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 7180,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 21,
+      "ctx": [
+        31.473569869995117,
+        0.9752680659294128,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 64,
+          "pred_ms": 2005.95068359375,
+          "raw": "wait + audio_probe + gas_sniff, thermal_snap",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe",
+              "gas_sniff"
+            ],
+            [
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 1881.8631591796875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 564.16943359375,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6363,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 22,
+      "ctx": [
+        20.952972412109375,
+        0.5764428377151489,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 298,
+          "pred_ms": 1959.5369873046875,
+          "raw": "wait + thermal_snap, gas_sniff + audio_probe",
+          "parsed_plan": [
+            [
+              "wait",
+              "thermal_snap"
+            ],
+            [
+              "gas_sniff",
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2370.15673828125,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 697.8251953125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6129,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 23,
+      "ctx": [
+        19.294633865356445,
+        0.9476078748703003,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 167,
+          "pred_ms": 2899.831787109375,
+          "raw": "thermal_snap + lidar_scan, audio_probe + gas_sniff",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "lidar_scan"
+            ],
+            [
+              "audio_probe",
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 572.385009765625,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2104.927490234375,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 7233,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 24,
+      "ctx": [
+        18.756933212280273,
+        0.9930297136306763,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 402,
+          "pred_ms": 3398.205810546875,
+          "raw": "thermal_snap + wait, lidar_scan",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "wait"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 509.498779296875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1758.9832763671875,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5717,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 25,
+      "ctx": [
+        35.978721618652344,
+        0.380514919757843,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 199,
+          "pred_ms": 2622.4619140625,
+          "raw": "gas_sniff + thermal_snap, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff",
+              "thermal_snap"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 733.654296875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1925.0194091796875,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6127,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 26,
+      "ctx": [
+        35.76255798339844,
+        0.39769232273101807,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 409,
+          "pred_ms": 2985.4140625,
+          "raw": "thermal_snap + gas_sniff, lidar_scan + thermal_snap",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan",
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 870.52734375,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 1966.307861328125,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 7446,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 27,
+      "ctx": [
+        31.688514709472656,
+        0.9545437693595886,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 315,
+          "pred_ms": 2875.395263671875,
+          "raw": "lidar_scan + gas_sniff, wait + audio_probe",
+          "parsed_plan": [
+            [
+              "lidar_scan",
+              "gas_sniff"
+            ],
+            [
+              "wait",
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 678.611572265625,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2110.087890625,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6976,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 28,
+      "ctx": [
+        11.51075267791748,
+        0.10353782027959824,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 17,
+          "pred_ms": 2055.667236328125,
+          "raw": "audio_probe + wait, gas_sniff",
+          "parsed_plan": [
+            [
+              "audio_probe",
+              "wait"
+            ],
+            [
+              "gas_sniff"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2557.571533203125,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 555.2021484375,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5865,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 29,
+      "ctx": [
+        12.911684036254883,
+        0.3927678167819977,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 174,
+          "pred_ms": 3423.0048828125,
+          "raw": "lidar_scan + thermal_snap + gas_sniff, wait",
+          "parsed_plan": [
+            [
+              "lidar_scan",
+              "thermal_snap",
+              "gas_sniff"
+            ],
+            [
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 601.8505859375,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2552.23828125,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 7485,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 30,
+      "ctx": [
+        35.21931838989258,
+        0.48991742730140686,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 331,
+          "pred_ms": 2900.5107421875,
+          "raw": "lidar_scan, audio_probe + thermal_snap",
+          "parsed_plan": [
+            [
+              "lidar_scan"
+            ],
+            [
+              "audio_probe",
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 781.721923828125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 2031.0921630859375,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5775,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 31,
+      "ctx": [
+        36.191795349121094,
+        0.1646367311477661,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 284,
+          "pred_ms": 1220.267333984375,
+          "raw": "gas_sniff, audio_probe",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 470.326904296875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 316,
+          "pred_ms": 2504.743896484375,
+          "raw": "gas_sniff, audio_probe + gas_sniff, audio_probe + wait",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "audio_probe",
+              "gas_sniff"
+            ],
+            [
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5419,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 32,
+      "ctx": [
+        29.442081451416016,
+        0.3786872923374176,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 20,
+          "pred_ms": 2005.398681640625,
+          "raw": "gas_sniff + thermal_snap, wait + audio_probe",
+          "parsed_plan": [
+            [
+              "gas_sniff",
+              "thermal_snap"
+            ],
+            [
+              "wait",
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2239.326904296875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 749.52294921875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6128,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 33,
+      "ctx": [
+        23.843509674072266,
+        0.4976244568824768,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 46,
+          "pred_ms": 3241.405517578125,
+          "raw": "thermal_snap + audio_probe, lidar_scan",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 704.239501953125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1879.9412841796875,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5770,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 34,
+      "ctx": [
+        28.62826919555664,
+        0.541933536529541,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 124,
+          "pred_ms": 2754.067626953125,
+          "raw": "thermal_snap + lidar_scan, audio_probe",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "lidar_scan"
+            ],
+            [
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 754.305419921875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1746.8302001953125,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5319,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 35,
+      "ctx": [
+        20.525230407714844,
+        0.6924504041671753,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 223,
+          "pred_ms": 2913.49169921875,
+          "raw": "audio_probe, lidar_scan + thermal_snap",
+          "parsed_plan": [
+            [
+              "audio_probe"
+            ],
+            [
+              "lidar_scan",
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 402.3701171875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1889.13623046875,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5321,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 36,
+      "ctx": [
+        36.14772033691406,
+        0.24838989973068237,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "chosen": [
+        {
+          "index": 451,
+          "pred_ms": 2230.89453125,
+          "raw": "lidar_scan + gas_sniff + thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "lidar_scan",
+              "gas_sniff",
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 1708.1146240234375,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 484.1435546875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 7536,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 37,
+      "ctx": [
+        17.87554359436035,
+        0.0801507979631424,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 113,
+          "pred_ms": 3028.580322265625,
+          "raw": "wait, lidar_scan + thermal_snap",
+          "parsed_plan": [
+            [
+              "wait"
+            ],
+            [
+              "lidar_scan",
+              "thermal_snap"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 830.19189453125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 432,
+          "pred_ms": 1856.8828125,
+          "raw": "wait + audio_probe, gas_sniff + wait",
+          "parsed_plan": [
+            [
+              "wait",
+              "audio_probe"
+            ],
+            [
+              "gas_sniff",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 5422,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 38,
+      "ctx": [
+        20.689512252807617,
+        0.9920273423194885,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 256,
+          "pred_ms": 2737.676025390625,
+          "raw": "wait + thermal_snap, gas_sniff + lidar_scan",
+          "parsed_plan": [
+            [
+              "wait",
+              "thermal_snap"
+            ],
+            [
+              "gas_sniff",
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 561.46044921875,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 2099.4482421875,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 7185,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    },
+    {
+      "room": 39,
+      "ctx": [
+        38.255462646484375,
+        0.4275979995727539,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "chosen": [
+        {
+          "index": 205,
+          "pred_ms": 2093.7822265625,
+          "raw": "gas_sniff + audio_probe, thermal_snap + audio_probe",
+          "parsed_plan": [
+            [
+              "gas_sniff",
+              "audio_probe"
+            ],
+            [
+              "thermal_snap",
+              "audio_probe"
+            ]
+          ]
+        },
+        {
+          "index": 286,
+          "pred_ms": 1889.7320556640625,
+          "raw": "gas_sniff, lidar_scan",
+          "parsed_plan": [
+            [
+              "gas_sniff"
+            ],
+            [
+              "lidar_scan"
+            ]
+          ]
+        },
+        {
+          "index": 97,
+          "pred_ms": 598.31689453125,
+          "raw": "thermal_snap + audio_probe + wait",
+          "parsed_plan": [
+            [
+              "thermal_snap",
+              "audio_probe",
+              "wait"
+            ]
+          ]
+        }
+      ],
+      "episode_time_ms": 6185,
+      "llm_used": false,
+      "llm_overhead_ms": 0.0
+    }
+  ],
+  "llm_total_overhead_ms": 0.0
+}

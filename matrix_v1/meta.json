@@ -1,0 +1,15 @@
+{
+  "mode": "composite",
+  "num_rooms": 50,
+  "num_plans": 800,
+  "Z_columns": [
+    "comp_nodes",
+    "comp_parallel",
+    "depth",
+    "mean_watts",
+    "avg_time_ms",
+    "includes_safety"
+  ],
+  "alpha_ms_per_mWh": 1.0,
+  "beta_ms_penalty": 2000.0
+}
