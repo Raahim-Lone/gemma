@@ -13,6 +13,7 @@ The pipeline:
 
 **Note**: In the unlikelihood likelihood that a command brings an error, it likely will be resolved by changing the parameters (i.e changing k = 48 to k = 120 depending on composites.npy)
 
+**Want to see a more in depth demo?** Visit https://raahim-lone.github.io/fusion-explorer-demo/
 
 ---
 
@@ -53,5 +54,4 @@ python runtime_loop.py deploy --fusion_dir fusion_runs --imc_vectors imc_out/com
        --good_json imc_out/good_rewrites.json --rooms 10 --per_room 3 \
        --dataset_out runtime_ds --diversity
 
-**Want to see a more in depth demo?** Visit https://raahim-lone.github.io/fusion-explorer-demo/
 
