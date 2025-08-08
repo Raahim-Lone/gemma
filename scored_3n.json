@@ -1,0 +1,317 @@
+[
+  {
+    "rank": 0,
+    "index": 4,
+    "pred_ms": 1728.47314453125,
+    "plan": [
+      [
+        "thermal_snap",
+        "audio_probe"
+      ],
+      [
+        "wait"
+      ]
+    ],
+    "raw": "thermal_snap + audio_probe, wait"
+  },
+  {
+    "rank": 1,
+    "index": 23,
+    "pred_ms": 1800.70458984375,
+    "plan": [
+      [
+        "audio_probe",
+        "wait"
+      ],
+      [
+        "wait"
+      ],
+      [
+        "audio_probe"
+      ]
+    ],
+    "raw": "audio_probe + wait, wait, audio_probe"
+  },
+  {
+    "rank": 2,
+    "index": 22,
+    "pred_ms": 1800.70458984375,
+    "plan": [
+      [
+        "wait",
+        "audio_probe"
+      ],
+      [
+        "audio_probe"
+      ],
+      [
+        "wait"
+      ]
+    ],
+    "raw": "wait + audio_probe, audio_probe, wait"
+  },
+  {
+    "rank": 3,
+    "index": 45,
+    "pred_ms": 1913.74365234375,
+    "plan": [
+      [
+        "wait",
+        "gas_sniff"
+      ],
+      [
+        "audio_probe"
+      ]
+    ],
+    "raw": "wait + gas_sniff, audio_probe"
+  },
+  {
+    "rank": 4,
+    "index": 44,
+    "pred_ms": 1913.74365234375,
+    "plan": [
+      [
+        "audio_probe"
+      ],
+      [
+        "wait",
+        "gas_sniff"
+      ]
+    ],
+    "raw": "audio_probe, wait + gas_sniff"
+  },
+  {
+    "rank": 5,
+    "index": 2,
+    "pred_ms": 1914.834228515625,
+    "plan": [
+      [
+        "thermal_snap",
+        "gas_sniff"
+      ],
+      [
+        "wait"
+      ]
+    ],
+    "raw": "thermal_snap + gas_sniff, wait"
+  },
+  {
+    "rank": 6,
+    "index": 43,
+    "pred_ms": 1956.1053466796875,
+    "plan": [
+      [
+        "gas_sniff"
+      ],
+      [
+        "wait",
+        "audio_probe"
+      ]
+    ],
+    "raw": "gas_sniff, wait + audio_probe"
+  },
+  {
+    "rank": 7,
+    "index": 41,
+    "pred_ms": 1956.1053466796875,
+    "plan": [
+      [
+        "audio_probe",
+        "wait"
+      ],
+      [
+        "gas_sniff"
+      ]
+    ],
+    "raw": "audio_probe + wait, gas_sniff"
+  },
+  {
+    "rank": 8,
+    "index": 42,
+    "pred_ms": 2023.9671630859375,
+    "plan": [
+      [
+        "wait"
+      ],
+      [
+        "gas_sniff",
+        "audio_probe"
+      ]
+    ],
+    "raw": "wait, gas_sniff + audio_probe"
+  },
+  {
+    "rank": 9,
+    "index": 40,
+    "pred_ms": 2023.9671630859375,
+    "plan": [
+      [
+        "gas_sniff",
+        "audio_probe"
+      ],
+      [
+        "wait"
+      ]
+    ],
+    "raw": "gas_sniff + audio_probe, wait"
+  },
+  {
+    "rank": 10,
+    "index": 46,
+    "pred_ms": 2023.9671630859375,
+    "plan": [
+      [
+        "wait"
+      ],
+      [
+        "audio_probe",
+        "gas_sniff"
+      ]
+    ],
+    "raw": "wait, audio_probe + gas_sniff"
+  },
+  {
+    "rank": 11,
+    "index": 47,
+    "pred_ms": 2023.9671630859375,
+    "plan": [
+      [
+        "audio_probe",
+        "gas_sniff"
+      ],
+      [
+        "wait"
+      ]
+    ],
+    "raw": "audio_probe + gas_sniff, wait"
+  },
+  {
+    "rank": 12,
+    "index": 38,
+    "pred_ms": 2183.982421875,
+    "plan": [
+      [
+        "wait"
+      ],
+      [
+        "audio_probe"
+      ],
+      [
+        "gas_sniff",
+        "gas_sniff"
+      ]
+    ],
+    "raw": "wait, audio_probe, gas_sniff + gas_sniff"
+  },
+  {
+    "rank": 13,
+    "index": 19,
+    "pred_ms": 2576.395751953125,
+    "plan": [
+      [
+        "thermal_snap"
+      ],
+      [
+        "lidar_scan",
+        "gas_sniff"
+      ]
+    ],
+    "raw": "thermal_snap, lidar_scan + gas_sniff"
+  },
+  {
+    "rank": 14,
+    "index": 20,
+    "pred_ms": 2576.395751953125,
+    "plan": [
+      [
+        "gas_sniff",
+        "lidar_scan"
+      ],
+      [
+        "thermal_snap"
+      ]
+    ],
+    "raw": "gas_sniff + lidar_scan, thermal_snap"
+  },
+  {
+    "rank": 15,
+    "index": 7,
+    "pred_ms": 2576.395751953125,
+    "plan": [
+      [
+        "lidar_scan",
+        "gas_sniff"
+      ],
+      [
+        "thermal_snap"
+      ]
+    ],
+    "raw": "lidar_scan + gas_sniff, thermal_snap"
+  },
+  {
+    "rank": 16,
+    "index": 3,
+    "pred_ms": 2607.45068359375,
+    "plan": [
+      [
+        "thermal_snap",
+        "gas_sniff"
+      ],
+      [
+        "lidar_scan"
+      ]
+    ],
+    "raw": "thermal_snap + gas_sniff, lidar_scan"
+  },
+  {
+    "rank": 17,
+    "index": 17,
+    "pred_ms": 2607.45068359375,
+    "plan": [
+      [
+        "gas_sniff",
+        "thermal_snap"
+      ],
+      [
+        "lidar_scan"
+      ]
+    ],
+    "raw": "gas_sniff + thermal_snap, lidar_scan"
+  },
+  {
+    "rank": 18,
+    "index": 34,
+    "pred_ms": 2623.133056640625,
+    "plan": [
+      [
+        "audio_probe"
+      ],
+      [
+        "gas_sniff"
+      ],
+      [
+        "wait",
+        "gas_sniff"
+      ]
+    ],
+    "raw": "audio_probe, gas_sniff, wait + gas_sniff"
+  },
+  {
+    "rank": 19,
+    "index": 33,
+    "pred_ms": 2623.133056640625,
+    "plan": [
+      [
+        "audio_probe"
+      ],
+      [
+        "gas_sniff",
+        "wait"
+      ],
+      [
+        "gas_sniff"
+      ]
+    ],
+    "raw": "audio_probe, gas_sniff + wait, gas_sniff"
+  }
+]

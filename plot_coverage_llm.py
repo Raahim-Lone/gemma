@@ -105,7 +105,7 @@ def main():
     parser.add_argument("--use-llm", action="store_true",
                         help="Enable LLM re-ranking in fusion decisions")
     parser.add_argument("--llm-model", type=str, default=None,
-                        help="LLM model name for re-ranking (e.g., gemma3:4b)")
+                        help="LLM model name for re-ranking (e.g., gemma3n:e4b)")
     parser.add_argument("--top-k", type=int, default=0,
                         help="Top-K candidates to re-rank with LLM")
     parser.add_argument("--llm-gap-pct", type=float, default=0.10,

@@ -429,7 +429,7 @@ def main():
                     help="Comma-separated: closest|nf|cqlite|ig_ratio|ig_minus")
     ap.add_argument("--ig_lambda", type=float, default=1.0,
                     help="λ in IG − λ·distance (only for ig_minus)")
-    ap.add_argument("--llm_model", type=str, default=None, help="e.g., gemma3:4b (uses `ollama run`).")
+    ap.add_argument("--llm_model", type=str, default=None, help="e.g., gemma3n:e4b (uses `ollama run`).")
     ap.add_argument("--llm_topk", type=int, default=0, help="If >0, re-rank fusion top-K each decision.")
     ap.add_argument("--llm_every", type=int, default=1, help="Re-rank every N decisions (reduce prompting).")
 

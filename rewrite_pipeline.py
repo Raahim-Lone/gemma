@@ -637,7 +637,7 @@ def build_cli() -> argparse.ArgumentParser:
 
     apg = sub.add_parser("generate", help="Sample seeds and call Gemma (Ollama) to rewrite.")
     apg.add_argument("--out_dir", type=Path, required=True, help="Output directory for raw generations.")
-    apg.add_argument("--model", type=str, default="gemma3:4b", help="Ollama model name.")
+    apg.add_argument("--model", type=str, default="gemma3n:e4b", help="Ollama model name.")
     apg.add_argument("--n", type=int, default=200, help="Total number of candidate lines to collect.")
     apg.add_argument("--batch_size", type=int, default=8, help="Keep up to this many lines per model call.")
     apg.add_argument("--k_per_prompt", type=int, default=8, help="Ask the model to produce k rewrites per seed.")

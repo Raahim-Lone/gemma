@@ -618,7 +618,7 @@ def cmd_score(args: argparse.Namespace) -> None:
     if args.llm_model and args.llm_topk and args.llm_topk > 0:
         # Adaptive K: if confident, use smaller topK to shrink prompt
         K_full = int(args.llm_topk)
-        pool = [int(i) for i in order[:K]]
+        K = min(K_full, len(order))  # initial cap; we may shrink after gap calc
         if len(order) > 1:
             top1 = float(y_ms[order[0]])
             top2 = float(y_ms[order[1]])
@@ -851,7 +851,8 @@ def build_cli() -> argparse.ArgumentParser:
     aps.add_argument("--top", type=int, default=20, help="How many to output.")
     aps.add_argument("--out", type=Path, default=None, help="Write ranked JSON to file (else prints).")
     aps.add_argument("--device", type=str, default="auto", choices=["auto","cpu","cuda","mps"])
-    aps.add_argument("--llm_model", type=str, default=None, help="e.g., gemma3:4b (uses `ollama run`).")
+    aps.add_argument("--llm_model", type=str, default="gemma3n:e4b",
+                     help="Gemma 3n model tag for `ollama run`, e.g., gemma3n:e2b or gemma3n:e4b.")
     aps.add_argument("--llm_topk", type=int, default=0, help="If >0, re-rank the fusion top-K with LLM.")
     aps.add_argument("--llm_gap_pct", type=float, default=0.10, help="Only call LLM if (top2-top1)/top1 < this.")
     aps.add_argument("--llm_when_hazard", action="store_true", help="Always allow LLM when heat/gas present.")
@@ -871,7 +872,8 @@ def build_cli() -> argparse.ArgumentParser:
     apd.add_argument("--dataset_out", type=Path, default=Path("runtime_ds"))
     apd.add_argument("--maybe_wipe", action="store_true")
     apd.add_argument("--device", type=str, default="auto", choices=["auto","cpu","cuda","mps"])
-    apd.add_argument("--llm_model", type=str, default=None, help="e.g., gemma3:4b (uses `ollama run`).")
+    apd.add_argument("--llm_model", type=str, default="gemma3n:e4b",
+                     help="Gemma 3n model tag for `ollama run`, e.g., gemma3n:e2b or gemma3n:e4b.")
     apd.add_argument("--llm_topk", type=int, default=0, help="If >0, LLM re-ranks fusion top-K; first is taken.")
     apd.add_argument("--llm_gap_pct", type=float, default=0.10, help="Only call LLM if (top2-top1)/top1 < this.")
     apd.add_argument("--llm_when_hazard", action="store_true", help="Always allow LLM when heat/gas present.")
