@@ -11,6 +11,7 @@ The pipeline:
 5. **Fuse** IGMC predictions with lightweight contextual features via an MLP  
 6. **Deploy**: the runtime loop greedily picks the fastest plan, conditionally re-ranking with Gemma 3n only when the fusion model is uncertain.
 
+
 <p align="center">
   <img src="docs/fig_pipeline_overview.png" width="680">
 </p>
@@ -32,10 +33,10 @@ python log_sim_le_robot.py --rooms 20 --out lerobot_ds
 python build_cost_matrix.py  --in_dir lerobot_ds --out_dir matrix_v1
 python export_to_igmc.py     --matrix_dir matrix_v1 --out_dir igmc_data
 
-# ❹ train IGMC (GPU optional, ~2 min on RTX 3060)
+# ❹ train IGMC (GPU optional)
 python train_igmc_robot.py   --data_root igmc_data --epochs 160 --out_dir igmc_runs
 
-# ❺ call Gemma 3n locally via Ollama, filter & embed 2 k rewrites  (⇠5 min)
+# ❺ call Gemma 3n locally via Ollama, filter & embed 2 k rewrites 
 python rewrite_pipeline.py generate --out_dir imc_out --model gemma3n:e4b --n 2000
 python rewrite_pipeline.py filter   --in_dir imc_out --out_dir imc_out --row_normalize
 
@@ -44,7 +45,7 @@ python select_and_execute.py select  --composites imc_out/composites.npy --k 120
 python select_and_execute.py execute --good_json imc_out/good_rewrites.json \
        --selected imc_out/selected_ids.json --rooms 40 --dataset_out lerobot_exec_ds
 
-# ❼ train fusion MLP  (~15 s)
+# ❼ train fusion MLP 
 python train_fusion_mlp.py --dataset_root lerobot_exec_ds --exec_index lerobot_exec_ds/executed_index.json \
        --imc_vectors imc_out/composites.npy --out_dir fusion_runs
 
