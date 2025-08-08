@@ -204,9 +204,9 @@ def k_center_greedy(M: np.ndarray, k: int, *, seed: int = 0, init_idx: Optional[
     n = M.shape[0]
     if k <= 0 or k > n:
         raise ValueError(f"Invalid k={k} for n={n}")
-    rng = random.Random(args.seed)
-    random.seed(args.seed)
-    np.random.seed(args.seed)
+    rng = random.Random(seed)
+    random.seed(seed)
+    np.random.seed(seed)
 
     # Choose initial center
     if init_idx is None:

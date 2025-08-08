@@ -11,7 +11,7 @@ Examples
 # 1) Generate 2k candidates with Gemma via Ollama:
 python rewrite_pipeline.py generate \
   --out_dir imc_out \
-  --model gemma2:2b-instruct \
+  --model gemma3n:4b-instruct \
   --n 2000 \
   --batch_size 8 \
   --temperature 0.7 \

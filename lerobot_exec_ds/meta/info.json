@@ -1,15 +1,15 @@
 {
     "codebase_version": "v2.1",
     "robot_type": null,
-    "total_episodes": 40,
-    "total_frames": 658,
+    "total_episodes": 24,
+    "total_frames": 232,
     "total_tasks": 1,
     "total_videos": 0,
     "total_chunks": 1,
     "chunks_size": 1000,
     "fps": 10,
     "splits": {
-        "train": "0:40"
+        "train": "0:24"
     },
     "data_path": "data/chunk-{episode_chunk:03d}/episode_{episode_index:06d}.parquet",
     "video_path": "videos/chunk-{episode_chunk:03d}/{video_key}/episode_{episode_index:06d}.mp4",
