@@ -36,7 +36,7 @@ python export_to_igmc.py     --matrix_dir matrix_v1 --out_dir igmc_data
 python train_igmc_robot.py   --data_root igmc_data --epochs 160 --out_dir igmc_runs
 
 # ❺ call Gemma 3n locally via Ollama, filter & embed 2 k rewrites  (⇠5 min)
-python rewrite_pipeline.py generate --out_dir imc_out --model gemma3:2b-instruct --n 2000
+python rewrite_pipeline.py generate --out_dir imc_out --model gemma3n:e4b-instruct --n 2000
 python rewrite_pipeline.py filter   --in_dir imc_out --out_dir imc_out --row_normalize
 
 # ❻ sample & execute 120 composites into a dataset
